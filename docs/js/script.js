@@ -17,7 +17,7 @@ document.querySelector("#btnBuscar").addEventListener('click', function () {
 function obtener_registro(numBip) {
 
     var datos = null;
-    let url = '//bip-servicio.herokuapp.com/api/v1/solicitudes.json?bip=' + numBip;
+    let url = 'https://bip-servicio.herokuapp.com/api/v1/solicitudes.json?bip=' + numBip;
 
     const api = new XMLHttpRequest();
     api.open('GET', url, true);
