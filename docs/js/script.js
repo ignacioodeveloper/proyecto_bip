@@ -37,7 +37,7 @@ function obtener_registro(numBip) {
             var id_bip = datos.id;
             var estado = datos.estadoContrato;
             var saldo = datos.saldoTarjeta;
-            // var fecha = datos.fechaSaldo;
+            var fecha = datos.fechaSaldo;
 
             $('#id_bip').html(id_bip);
             $('#estado').html(estado);
